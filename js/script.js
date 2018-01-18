@@ -1,6 +1,6 @@
 var firstname = "Marten",
     gender = "female",
-    lastname = "Stockenberg - prefix",
+    lastname = "SAE Git shizzle",
     salutation;
 
 
