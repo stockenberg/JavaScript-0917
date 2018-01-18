@@ -1,0 +1,16 @@
+basic navigation
+
+cd OrderName - navigate in
+cd .. - navigate out
+
+mkdir OrderName - createFOlder
+
+rm FIleName - deleteFile
+rm -R OrderName - delete folder
+
+git clone URL - clone repo
+git pull - get changes
+
+git checkout branchName - checkout branch
+
+git branch - list all branches
