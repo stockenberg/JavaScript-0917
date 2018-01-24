@@ -12,6 +12,7 @@ git clone URL - clone repo
 git pull - get changes
 
 git fetch origin branchName:branchName - fetch specific branch
+git branch --set-upstream-to=origin/branchName branchName - pull infos for new branch
 
 git checkout branchName - checkout branch
 
