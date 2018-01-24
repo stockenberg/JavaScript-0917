@@ -1,0 +1,10 @@
+/*
+    Beispiele
+    TODO: JavaScript Navigation-Toggle
+    TODO: JavaScript Todo-List
+    TODO: JavaScript Image Slider
+
+    TODO: Tabs with JavaScript
+    TODO: JavaScript Formularvalidierung
+
+*/
