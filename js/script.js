@@ -1,19 +1,3 @@
-/*
-    Beispiele
-    TODO: JavaScript Navigation-Toggle
-    TODO: JavaScript Todo-List
-    TODO: JavaScript Image Slider
-    TODO: JavaScript Lightbox - in action
-    TODO: Tabs with JavaScript
-
-    Einfacher und Besser zusammen arbeiten
-    TODO: Git Install
-    TODO: branches
-    TODO: Git pull
-    TODO: Git Checkout
-
-*/
-
 
 var imgContainer = document.getElementById('gallery');
 var listItems = imgContainer.children[0].children;
