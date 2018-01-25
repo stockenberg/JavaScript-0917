@@ -12,6 +12,9 @@ git clone URL - clone repo
 git pull - get changes
 
 git fetch origin branchName:branchName - fetch specific branch
+
+git fetch origin ms_addToCart:ms_addToCart
+
 git branch --set-upstream-to=origin/branchName branchName - pull infos for new branch
 
 git checkout branchName - checkout branch
