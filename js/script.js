@@ -16,7 +16,7 @@ document.forms[0].onsubmit = function (e){
                         errors.push('Bitte fülle das Feld: ' + e.target[i].name + " korrekt aus");
                     }else{
                         if(!e.target[i].value.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
-                            errors.push('Dies ist keine gültige E-Mail Aresse');
+                            errors.push('Dies ist keine gültige E-Mail Adresse');
                         }else{
                             data[e.target[i].name] = e.target[i].value;
                         }
