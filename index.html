@@ -19,6 +19,10 @@
             position: absolute;
             top: 10px;
             width: 100%;
+            display: none;
+        }
+        #slider figure.show{
+            display: block;
         }
         #slider figure img{
             margin: auto;
@@ -43,26 +47,26 @@
 <main class="container">
 
     <div id="slider">
-        <figure>
-            <img src="#"  alt="">
+        <figure class="show">
+            <img src="#"  alt="1">
         </figure>
         <figure>
-            <img src="#"  alt="">
+            <img src="#"  alt="2">
         </figure>
         <figure>
-            <img src="#"  alt="">
+            <img src="#"  alt="3">
         </figure>
         <figure>
-            <img src="#"  alt="">
+            <img src="#"  alt="4">
         </figure>
         <figure>
-            <img src="#"  alt="">
+            <img src="#"  alt="5">
         </figure>
     </div>
 
     <section class="sliderControls">
-        <button>Previous</button>
-        <button>Next</button>
+        <button onclick="slider.previous()">Previous</button>
+        <button onclick="slider.next()">Next</button>
     </section>
 
 </main>
