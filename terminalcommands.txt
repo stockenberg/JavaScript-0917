@@ -14,6 +14,12 @@ git pull - get changes
 git fetch origin branchName:branchName - fetch specific branch
 git branch --set-upstream-to=origin/branchName branchName - pull infos for new branch
 
+
+
 git checkout branchName - checkout branch
 
 git branch - list all branches
+
+## fetch accordeon
+git fetch origin accordeon:accordeon
+git branch --set-upstream-to=origin/accordeon accordeon
